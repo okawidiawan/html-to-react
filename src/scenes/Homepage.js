@@ -1,9 +1,9 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-
 import Section from 'elements/Section';
 import Header from 'parts/Header';
-import HeroImage from 'assets/images/hero-image.png'
+import HeroImage from 'assets/images/hero-image.png';
+import Clients from 'parts/Clients';
 
 export default function Homepage() {
     return (
@@ -42,6 +42,7 @@ export default function Homepage() {
                     </div>
                 </Section>
             </main>
+            <Clients></Clients>
         </div>
     );
 }
